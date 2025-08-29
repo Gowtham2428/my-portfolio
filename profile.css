@@ -102,10 +102,9 @@ body{
 
 }
 .cointainer,.edu{
-    background-color: #928DAB;
+    background-color: #8d78fa;
             padding: 20px;
             border-radius: 20px;
-            /* box-shadow: 0 8px 16px rgba(155, 120, 120, 0.2); */
             max-width: 1000px;
             margin: auto;
             box-sizing: border-box;
@@ -115,20 +114,16 @@ body{
     font-size: x-large;
     text-align: center;
 }
-.eduinfo{
+.cointainer,.eduinfo{
     color: white;
+    
 
 }
 .highedu{
     padding-top: 50px;
     /* background-color: aquamarine; */
 }
-/* skill section */
-/* .container {
-            background-color: rgb(192, 192, 192);
-            width: 80%;
-            border-radius: 15px;
-} */
+
  .skills-box {
   background-color: #F8FFE5;
   border: 1px solid #30363d;
@@ -224,7 +219,7 @@ body {
 .contact-form input,
 .contact-form textarea {
   flex: 1;
-  width: 100%;
+  width: 670px;
   padding: 15px;
   background-color: #0d1117;
   border: 2px solid rgb(49, 172, 188);
@@ -259,5 +254,36 @@ body {
 
 .contact-form button:hover {
   background-color: #e60000;
+  margin-bottom: auto;
+}
+
+
+.fa-github{
+   margin-bottom: 10px;
+  font-size: 30px;
+  padding: 5px;
+}
+
+.social{
+  margin-top: 0%;
+   margin-left: 45%;
+   margin-bottom: 10px;
+   font-size: 30px;
+   padding: 5px;
+   margin-top: -5%;
+}
+.social :hover{
+  color: #0077b5; /* example: LinkedIn blue */
+}
+footer {
+  background-color:#081b29;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  font-size: 20px;
+}
+
+footer p {
+  margin: 5px 0;
 }
 
